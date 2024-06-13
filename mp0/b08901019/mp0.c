@@ -25,7 +25,8 @@
 void
 ls(char *path, int cnt_file[], int cnt_dir[], char key)
 {
-  int max_len = sizeof(path) + 1 + 10 + 1;
+  // int max_len = sizeof(path) + 1 + 10 + 1;
+  int max_len = strlen(path) + 1 + 10 + 1;
   // int max_len = 64;
   char buf[max_len], *p;
 

@@ -156,10 +156,10 @@ void thread_exit(void){
         temp_thread = current_thread;
         current_thread = current_thread->next;
 
-        free( temp_thread->handler_stack_p );
+        // free( temp_thread->handler_stack_p );
         free( temp_thread->handler_stack );
 
-        free( temp_thread->stack_p );
+        // free( temp_thread->stack_p );
         free( temp_thread->stack );
         free( temp_thread );
 

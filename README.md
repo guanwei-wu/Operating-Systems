@@ -1,11 +1,11 @@
 # Operating-Systems
 
->MP1: xv6 Setup
+>MP0: xv6 Setup
 >
->MP2: Thread Package
+>MP1: Thread Package
 >
->MP3: Demand Paging and Swapping
+>MP2: Demand Paging and Swapping
 >
->MP4: Scheduling
+>MP3: Scheduling
 >
->MP5: File System
+>MP4: File System
